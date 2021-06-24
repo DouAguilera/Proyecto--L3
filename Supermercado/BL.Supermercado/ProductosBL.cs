@@ -67,6 +67,7 @@ namespace BL.Supermercado
             return ListaProductos;
         }
     }
+
     public class Producto
     {
         public int Id { get; set; }
