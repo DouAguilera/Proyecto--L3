@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42FCE630-8C28-474E-9461-68A4CF531D6F}</ProjectGuid>
+    <ProjectGuid>{97855942-A58B-4F19-A039-A6821D51822A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SeguridadBL</RootNamespace>
-    <AssemblyName>SeguridadBL</AssemblyName>
+    <RootNamespace>BL.Supermercado</RootNamespace>
+    <AssemblyName>BL.Supermercado</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

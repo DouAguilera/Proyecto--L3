@@ -113,16 +113,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SeguridadBL\BL.Supermercado.csproj">
-      <Project>{42fce630-8c28-474e-9461-68a4cf531d6f}</Project>
-      <Name>BL.Supermercado</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\cybersecurity-lock.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cybersecurity-lock1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL.Supermercado\BL.Supermercado.csproj">
+      <Project>{97855942-a58b-4f19-a039-a6821d51822a}</Project>
+      <Name>BL.Supermercado</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

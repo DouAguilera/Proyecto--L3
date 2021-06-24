@@ -62,7 +62,7 @@ namespace BL.Supermercado
 
         }
 
-        public BindingList<Producto>    ObtenerProductos()
+        public BindingList<Producto> ObtenerProductos()
         {
             return ListaProductos;
         }
